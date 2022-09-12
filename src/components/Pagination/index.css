@@ -1,0 +1,32 @@
+#pagination {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#pagination>button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#pagination>button:first-child,
+#pagination>button:last-child {
+    background-color: #861919;
+}
+
+#pagination .pages-index {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    color: black;
+    border-radius: 100%;
+}
+
+#pagination .pages-index:hover {
+    background-color: #9ca3af;
+}
+
+
